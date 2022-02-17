@@ -14,6 +14,7 @@
 		A81EDF3627BED4FF007D0824 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81EDF3527BED4FF007D0824 /* Recipe.swift */; };
 		A81EDF3B27BED5CA007D0824 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A81EDF3A27BED5CA007D0824 /* .gitignore */; };
 		A81EDF3D27BED74B007D0824 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A81EDF3C27BED74B007D0824 /* README.md */; };
+		A81EDF4027BEDF1E007D0824 /* AllRecipes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81EDF3F27BEDF1E007D0824 /* AllRecipes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		A81EDF3527BED4FF007D0824 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		A81EDF3A27BED5CA007D0824 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		A81EDF3C27BED74B007D0824 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A81EDF3F27BEDF1E007D0824 /* AllRecipes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllRecipes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				A81EDF3527BED4FF007D0824 /* Recipe.swift */,
+				A81EDF3E27BEDEFF007D0824 /* Recipes */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -98,6 +101,14 @@
 			children = (
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A81EDF3E27BEDEFF007D0824 /* Recipes */ = {
+			isa = PBXGroup;
+			children = (
+				A81EDF3F27BEDF1E007D0824 /* AllRecipes.swift */,
+			);
+			path = Recipes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,6 +186,7 @@
 				A81EDF3627BED4FF007D0824 /* Recipe.swift in Sources */,
 				A81EDF2A27BED45C007D0824 /* ContentView.swift in Sources */,
 				A81EDF2827BED45C007D0824 /* CookcademyApp.swift in Sources */,
+				A81EDF4027BEDF1E007D0824 /* AllRecipes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
