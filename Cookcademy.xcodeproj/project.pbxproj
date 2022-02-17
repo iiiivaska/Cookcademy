@@ -59,9 +59,9 @@
 		A81EDF2627BED45C007D0824 /* Cookcademy */ = {
 			isa = PBXGroup;
 			children = (
+				A81EDF2727BED45C007D0824 /* CookcademyApp.swift */,
 				A81EDF3927BED511007D0824 /* ViewModel */,
 				A81EDF3827BED50A007D0824 /* Model */,
-				A81EDF2727BED45C007D0824 /* CookcademyApp.swift */,
 				A81EDF3727BED502007D0824 /* View */,
 				A81EDF2B27BED45D007D0824 /* Assets.xcassets */,
 				A81EDF2D27BED45D007D0824 /* Preview Content */,
